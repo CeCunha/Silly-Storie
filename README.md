@@ -1,4 +1,11 @@
 # Silly Storie
+
+Visit the page below:
+
+
+https://cecunha.github.io/Silly-Storie/
+
+
 Author: Cesar Cunha
 Page created for the Computer Programming Lab - Georgian College - 3 Term
 Course: JavaScript
