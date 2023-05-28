@@ -24,22 +24,22 @@ function result() {
 	var zItem = randomValueFromArray(insertZ);
 
 	if(yItem == "Death Valley"){
-		document.getElementById('scene').style.backgroundImage = 'url(/images/deathvalley.png)';
+		document.getElementById('scene').style.backgroundImage = 'url(images/deathvalley.png)';
 	}
 	else if(yItem == "Area 51"){
-		document.getElementById('scene').style.backgroundImage = 'url(/images/area51.png)';
+		document.getElementById('scene').style.backgroundImage = 'url(images/area51.png)';
 	}
 	else if(yItem == "Aruba"){
-		document.getElementById('scene').style.backgroundImage = 'url(/images/aruba.png)';
+		document.getElementById('scene').style.backgroundImage = 'url(images/aruba.png)';
 	} 
 	else if(yItem == "The Shire"){
-		document.getElementById('scene').style.backgroundImage = 'url(/images/shire.png)';
+		document.getElementById('scene').style.backgroundImage = 'url(images/shire.png)';
 	} 
 	else if(yItem == "Machu Pichu"){
-		document.getElementById('scene').style.backgroundImage = 'url(/images/machupichu.png)';
+		document.getElementById('scene').style.backgroundImage = 'url(images/machupichu.png)';
 	} 
 	else if(yItem == "Mars"){
-		document.getElementById('scene').style.backgroundImage = 'url(/images/mars.png)';
+		document.getElementById('scene').style.backgroundImage = 'url(images/mars.png)';
 	} 
 
 	if(xItem == "Donald Trump"){
