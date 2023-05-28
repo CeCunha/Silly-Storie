@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silly Stories</title>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  <!-- CSS FILE -->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section>
+    <div class="row">
+      <div class="col-md-5 col-lg-4 col-xl-4 left">
+        <img class="logo" src="images/logo.png" alt="logo">
+      </div>
+      <div class="col-md-5 col-lg-4 col-xl-4 right">
+        <div class="menu">
+          <h1>MENU</h1>
+          <h2>Enter the author of the story (or let Bob handle it), the measurement system and generate a (Silly) story !!</h2><br>
+          <label for="customname">Author's Name:</label>
+          <input id="customname" type="text" placeholder=" be the author of the story"><br>
+          <label>Measuring System:</label>
+          <label for="imperial">Imperial</label>
+          <input id="imperial" type="radio" name="units" value="imperial" checked>
+          <label for="metric">Metric</label>
+          <input id="metric" type="radio" name="units" value="metric"><br>
+          <button class="btn btn-dark randomize">GENERATE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="portrait">
+        <div id="scene" class="scene">
+          <img class="character" id="character" src="">
+        </div>
+        <p id="story"></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <script src="js/index.js"></script>
+</body>
+
+<!-- This lab based on the excellent assessment challenge at https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator -->
+
+</html>
+

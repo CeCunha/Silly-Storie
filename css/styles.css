@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+body{
+	background-image: url(/images/background.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+/* Hide the output paragraph until the user has submitted the form */
+p {
+	font-family: 'Caveat', cursive;
+	visibility: hidden;
+	text-align: center;
+	width: 85%;
+	font-size: 1.2rem;
+	margin: auto;
+	padding-top: 12px;
+}
+
+h1{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1rem;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	width: 90%;
+	margin: auto;
+}
+
+label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.portrait{
+	width: 600px;
+	height: 700px;
+	text-align: center;
+	border: #ffffff00 solid 1px;
+	background-color: rgb(238, 233, 233);
+	margin: auto;
+	box-shadow: -7px -7px 15px rgba(0, 0, 0, 0.441);	
+}
+
+.scene{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	border: #ffffff00 solid .1px;
+	background-size:cover;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.character{
+	display: flex;
+	margin-top: 20%;
+	width: 400px;
+}
+
+.col-md-5.col-lg-4.col-xl-4.left{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.logo{
+	width: 310px;
+}
+
+.col-md-5.col-lg-4.col-xl-4.right{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.menu{
+	margin: auto;
+	border: solid rgba(0, 0, 0, 0) 2px;
+	border-radius: 20px;
+	/* width: 90%; */
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	background-color: rgba(255, 255, 255, 0.307);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.165);
+	padding: 10px;
+}
+
+input{
+	border:none;
+	border-radius: 15px;
+	font-size: 1rem;
+	padding: 2px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
+}
+
+::placeholder{
+	color: rgba(128, 128, 128, 0.462);
+	font-size: small;
+}
+
+button{
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+
+	body {
+		background-image: url(/images/background1.jpg);
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.portrait {
+		width: 350px;
+		height: 450px;
+	}
+	.scene{
+		width: 300px;
+		height: 250px;
+	}
+
+	.character{
+		width: 200px;
+		margin-top: 16%;
+	}
+	
+	p{
+		font-size: 1rem;
+	}
+}
+
+
+
+
+
