@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-	background-image: url(../images/background.jpg);
+	background-image: url(../images/background.png);
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
@@ -109,7 +109,7 @@ button{
 @media screen and (max-width: 1000px) {
 
 	body {
-		background-image: url(../images/background1.jpg);
+		background-image: url(../images/background1.png);
 		background-repeat: no-repeat;
   		background-attachment: fixed;
   		background-size: cover;
